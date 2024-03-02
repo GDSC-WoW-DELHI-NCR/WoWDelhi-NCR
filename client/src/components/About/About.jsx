@@ -52,9 +52,9 @@ function About() {
             className="h-12"
             animate={{ rotate: 360 }}
             transition={{
-              duration: 3, // duration of the animation in seconds
-              repeat: Infinity, // repeat the animation infinitely
-              ease: "linear" // linear animation for a smooth continuous rotation
+              duration: 4, 
+              repeat: Infinity, 
+              ease: "linear"
             }}
           />
         </aside>
