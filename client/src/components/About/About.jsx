@@ -1,5 +1,7 @@
+import { useEffect, useState } from "react";
 import wow from "../../assets/images/wow-logo.png";
 import { motion } from "framer-motion";
+import CounterComponent from "../CounterComponent/CounterComponent";
 
 function About() {
   return (
@@ -25,24 +27,28 @@ function About() {
       <section className="relative">
         <article className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-3 mt-32">
           <main className="bg-g pl-8 py-8 rounded-2xl flex flex-col gap-8">
-            <h1 className="text-[60px] xl:text-[70px]">1000+</h1>
-            <p className="text-[30px] sm:text-[35px] xl:text-[40px]">
+            {/* <h1 className="text-[60px] xl:text-[70px]">1000+</h1> */}
+            <CounterComponent targetCount={1000} label={"Attendees"} />
+            {/* <p className="text-[30px] sm:text-[35px] xl:text-[40px]">
               Attendees
-            </p>
+            </p> */}
           </main>
           <main className="bg-b p-8 py-8 rounded-2xl flex flex-col gap-8">
-            <h1 className="text-[60px] xl:text-[70px]">80+</h1>
-            <p className="text-[30px] sm:text-[35px] xl:text-[40px]">
+            {/* <h1 className="text-[60px] xl:text-[70px]">80+</h1> */}
+            <CounterComponent targetCount={80} label={"Volunteers"} />
+            {/* <p className="text-[30px] sm:text-[35px] xl:text-[40px]">
               Volunteers
-            </p>
+            </p> */}
           </main>
           <main className="bg-white text-black pl-8 py-8 rounded-2xl flex flex-col gap-8">
-            <h1 className="text-[60px] xl:text-[70px]">40+</h1>
-            <p className="text-[30px] sm:text-[35px] xl:text-[40px]">GDSC</p>
+            {/* <h1 className="text-[60px] xl:text-[70px]">40+</h1> */}
+            <CounterComponent targetCount={40} label={"GDSC"} />
+            {/* <p className="text-[30px] sm:text-[35px] xl:text-[40px]">GDSC</p> */}
           </main>
           <main className="bg-r pl-8 py-8 rounded-2xl flex flex-col gap-8">
-            <h1 className="text-[60px] xl:text-[70px]">3</h1>
-            <p className="text-[30px] sm:text-[35px] xl:text-[40px]">Tracks</p>
+            {/* <h1 className="text-[60px] xl:text-[70px]">3</h1> */}
+            <CounterComponent targetCount={3} label={"Tracks"} />
+            {/* <p className="text-[30px] sm:text-[35px] xl:text-[40px]">Tracks</p> */}
           </main>
         </article>
         <aside className="absolute w-16 h-16 bg-black flex justify-center items-center rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -52,8 +58,8 @@ function About() {
             className="h-12"
             animate={{ rotate: 360 }}
             transition={{
-              duration: 4, 
-              repeat: Infinity, 
+              duration: 4,
+              repeat: Infinity,
               ease: "linear"
             }}
           />
