@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const SlotMachine = ({ targetCount, label }) => {
     const [count, setCount] = useState(0);

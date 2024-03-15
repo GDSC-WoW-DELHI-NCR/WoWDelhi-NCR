@@ -1,11 +1,10 @@
-import { useEffect, useState } from "react";
 import wow from "../../assets/images/wow-logo.png";
 import { motion } from "framer-motion";
 import CounterComponent from "../CounterComponent/CounterComponent";
 
 function About() {
   return (
-    <div className=" m-auto pt-40 px-10 md:px-16">
+    <div id="about" className="m-auto pt-40 px-10 md:px-16">
       <article className="relative h-[595px] bg-y flex flex-col items-center justify-center rounded-2xl gap-3">
         <h1 className="text-black text-[40px] sm:text-[55px] md:text[70px] lg:text-[80px] font-bold">
           About
