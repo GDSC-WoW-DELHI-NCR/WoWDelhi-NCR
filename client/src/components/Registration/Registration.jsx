@@ -3,7 +3,7 @@ import commudle from "../../assets/images/commudle.png";
 
 function Registration() {
   return (
-    <div className="relative">
+    <div id="register" className="relative">
       <img
         src={regBg}
         alt=""

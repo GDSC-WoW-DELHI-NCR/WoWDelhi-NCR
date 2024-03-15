@@ -6,7 +6,7 @@ import linkedIn from "../../assets/images/linkedIn.png"
 
 function Contact() {
   return (
-    <div className="relative h-[70vh] sm:h-[90vh] md:h-screen">
+    <div id="contact" className="relative h-[70vh] sm:h-[90vh] md:h-screen">
       <main className="flex flex-col justify-center items-center pt-40">
         <h1 className="text-r font-bold text-[40px] sm:text-[55px] md:text[70px] lg:text-[80px] uppercase">
           Contact Us

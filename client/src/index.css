@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #1E1E1E;
-    color: #FFFFFF;
-    font-family: "DM Sans", sans-serif;
+body {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  font-family: "Roboto Mono", monospace;
 }
 
 /* @media only screen and (max-width: 1024px) {
