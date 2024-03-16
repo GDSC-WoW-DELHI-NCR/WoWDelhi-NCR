@@ -4,12 +4,12 @@ import CounterComponent from "../CounterComponent/CounterComponent";
 
 function About() {
   return (
-    <div id="about" className="m-auto pt-40 px-10 md:px-16">
+    <div id="about" className="m-auto pt-40 p-10 ">
       <article className="relative h-[595px] bg-y flex flex-col items-center justify-center rounded-2xl gap-3">
         <h1 className="text-black text-[40px] sm:text-[55px] md:text[70px] lg:text-[80px] font-bold">
           About
         </h1>
-        <p className="text-[19px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[36px] 2xl:text-[40px] px-5 sm:px-8 md:px-12 lg:px-16 pb-10 text-center">
+        <p className="text-justify text-[19px] sm:text-[24px] md:text-[28px] lg:text-[30px] xl:text-[36px] 2xl:text-[40px] px-5 sm:px-8 md:px-12 lg:px-16 pb-10">
           A collaborative event between{" "}
           <span className="text-b font-semibold">40+ GDSCs</span> from
           <span className="text-r font-semibold"> DELHI-NCR</span> called GDSC

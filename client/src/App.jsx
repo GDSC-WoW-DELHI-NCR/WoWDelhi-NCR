@@ -10,15 +10,15 @@ function App() {
 
   return (
     <div className="flex flex-col relative">
-    <Navbar />
-    <div>
-      <Hero/>
-      <About/>
-      <Sponsors/>
-      <Registration/>
-      <Contact/>
-      <Footer/>
-    </div>
+      <Navbar />
+      <div>
+        <Hero />
+        <About />
+        <Sponsors/>
+        <Registration />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   )
 }

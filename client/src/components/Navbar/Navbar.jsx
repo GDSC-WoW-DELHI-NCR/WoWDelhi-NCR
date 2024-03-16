@@ -9,7 +9,7 @@ function Navbar() {
         {NavbarItem.map((item, index) => {
           return (
             <li key={index}>
-              <a className=" text-[#F8F9FA] text-base" href={item.href}>{item.name}</a>
+              <a className=" text-[#F8F9FA] text-base " href={item.href}>{item.name}</a>
             </li>
           );
         })}
