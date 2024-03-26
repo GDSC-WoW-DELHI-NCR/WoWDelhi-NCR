@@ -4,13 +4,27 @@
 @tailwind utilities;
 
 body {
+  overflow-y: scroll;
+  overflow-x: hidden;
   background-color: #1E1E1E;
   color: #FFFFFF;
   font-family: "Roboto Mono", monospace;
 }
 
-/* @media only screen and (max-width: 1024px) {
-    .container {
-      @apply w-full;
-    }
-  } */
+/* Scroll */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #494949;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
