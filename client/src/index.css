@@ -3,14 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #1E1E1E;
   color: #FFFFFF;
   font-family: "Roboto Mono", monospace;
 }
-
-/* @media only screen and (max-width: 1024px) {
-    .container {
-      @apply w-full;
-    }
-  } */
